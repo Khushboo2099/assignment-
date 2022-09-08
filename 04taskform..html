@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Register Form</legend>
+    <form method="post">
+        <table border="1" align="center" cellpadding="10" cellspacing="10">
+            <caption style="color:blue;"><h2>Register Form</h2></caption>
+            <tr style="color:black; background-color:antiquewhite">
+                <td>Name</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr style="color:black; background-color: antiquewhite;">
+                <td>Email</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr style="color:black; background-color: antiquewhite;">
+                <td>Password</td>
+                <td><input type="password" name="pwd"></td>
+            </tr>
+            <tr style="color:black; background-color: antiquewhite;">
+                <td>Photo</td>
+                <td><input type="file" name="Photo"></td>
+            </tr>
+            <tr style="color:black; background-color: antiquewhite;">
+                <td>Bio</td>
+                <td><textarea name="bio"></textarea></td>
+            </tr>
+            <tr style="color:black; background-color: antiquewhite;">
+                <td>Gender</td>
+                <td><input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                    <input type="radio" name="gender" value="other">Other
+                </td>
+            </tr>
+            <tr style="color:black; background-color: antiquewhite;">
+                <td>Language</td>
+                <td><input type="checkbox" name="lan" value="Gujarati">Gujarati
+                    <input type="checkbox" name="lan" value="Hindi">Hindi
+                    <input type="checkbox" name="lan" value="English">English
+                </td>
+            </tr>
+            <tr style="color:black; background-color: antiquewhite;">
+                <td>Country</td>
+                <td><select name="Country">
+                    <option>India</option>
+                    <option>Canadas</option>
+                    <option>Germany</option>
+                </select>
+                </td>
+            </tr>
+            <tr style="color:black; background-color: antiquewhite;">
+                <td align="center" colspan="2"><input type="submit" name="submit" value="register">
+                    <input type="reset" name="reset" value="Reset">
+                
+                </td>
+            </tr>
+
+        </table>
+        
+    </form>
+    
+</body>
+</html>
