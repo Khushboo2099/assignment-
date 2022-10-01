@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .img{
+            height: 710px;
+            width: 100%;
+        } */
+        input{
+            border: 0;
+            border-bottom: 2px solid;
+            margin: 20px 10px 30px 10px;
+            border-color: grey;    
+            color: black;    
+            background-color: white;    
+            border-radius: 5px 5px;
+        }
+        .submit{
+            background-color: green;
+            color: white;
+            padding: 5px;
+            height: 25px;
+            width: 20%;
+            font-size: medium;
+        }
+        .submit:hover{
+            color: white;
+            background-color: blue;
+        }
+        h1{
+            color: black;
+            margin-top: 25px;
+            padding-top: 20px;
+        }
+        .one{
+            background-image: url("css-img/backgd.jpg");
+            height: 700px;
+            width: 1510px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .two{
+            margin-top: 50px;
+        }
+        .form{
+            font-weight: bold;
+            font-size: medium;
+            color: black;
+            border: 2px solid;
+            height: 400px;
+            width: 20%;
+            text-align: center;
+            margin: 50px 250px 20px 600px;
+            box-shadow: 10px 10px 5px black;
+            border-radius: 5px 5px;
+            
+        }
+      
+    </style>
+</head>
+<body>
+        <div class="one">
+            <h1 align="center">Registration</h1>
+
+    <div class="two">
+   
+        <form method="post" align="center" class="form"> 
+        <label for="Name">Name:</label>
+        <input type="text" name="name">
+        <br>
+
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" value="email">
+        <br>
+
+        <label for="password"> Password:</label>
+        <input type="password" name="pwd">
+        <br>
+
+        <label for="address">Address:</label>
+        <textarea name="Address" id="" cols="20" rows="8"></textarea>
+        <br>
+        <input type="submit" name="Submit" value="Submit" class="submit">
+
+        </form>
+
+</div>
+</div>
+</body>
+</html>
